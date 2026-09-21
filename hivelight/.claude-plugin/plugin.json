@@ -1,0 +1,11 @@
+{
+  "name": "hivelight",
+  "version": "0.1.0",
+  "description": "Operate Hivelight (app.hivelight.com) from Claude — create matters, build and apply workflows, manage tasks and milestones, shift deadlines. Covers both the public API and gap operations the public API doesn't expose.",
+  "author": {
+    "name": "Hivelight Pty Ltd"
+  },
+  "homepage": "https://hivelight.com",
+  "license": "MIT",
+  "keywords": ["hivelight", "legal", "matter-management", "workflow"]
+}

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hivelight-skill"
+version = "0.1.0"
+description = "Python client for the Hivelight Claude Code skill"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Hivelight Pty Ltd" }]
+dependencies = [
+    "requests>=2.31",
+    "keyring>=24.0",
+]
+
+[project.optional-dependencies]
+setup = ["playwright>=1.40"]
+
+[project.scripts]
+hivelight = "cli:main"
+
+[tool.setuptools]
+py-modules = ["hivelight", "cli", "setup"]
+package-dir = { "" = "." }

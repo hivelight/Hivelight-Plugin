@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hivelight-plugin",
+  "description": "Hivelight Claude Code plugin (private distribution).",
+  "owner": {
+    "name": "Hivelight Pty Ltd"
+  },
+  "plugins": [
+    {
+      "name": "hivelight",
+      "description": "Operate Hivelight (app.hivelight.com) from Claude — create matters, build and apply roadmaps, manage tasks and milestones, import from connected practice-management systems.",
+      "source": "./hivelight",
+      "category": "productivity",
+      "homepage": "https://hivelight.com"
+    }
+  ]
+}
