@@ -25,7 +25,7 @@ and its distributable package.
 
 ## Install
 
-### Option A — from this repo (for anyone with access)
+### Option A — from this repo (recommended)
 
 ```
 /plugin marketplace add hivelight/Hivelight-Plugin

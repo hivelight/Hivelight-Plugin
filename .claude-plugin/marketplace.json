@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "hivelight-plugin",
-  "description": "Hivelight Claude Code plugin (private distribution).",
+  "description": "Official Hivelight plugin for Claude Code. Operate your Hivelight workspace from Claude.",
   "owner": {
     "name": "Hivelight Pty Ltd"
   },
