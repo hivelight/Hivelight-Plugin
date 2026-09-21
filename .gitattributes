@@ -1,0 +1,12 @@
+* text=auto
+
+# Unix launchers and scripts must stay LF, or they break on macOS/Linux
+*.sh      text eol=lf
+*.command text eol=lf
+*.py      text eol=lf
+
+# Windows launchers keep CRLF
+*.bat     text eol=crlf
+
+# Never touch the distributable package
+*.zip     binary
